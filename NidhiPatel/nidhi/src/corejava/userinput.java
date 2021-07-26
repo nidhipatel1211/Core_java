@@ -9,6 +9,7 @@ public class userinput {
 		System.out.println("enter your name");
 		Scanner in=new Scanner(System.in);
 		String name=in.next();
+		in.close();
 		System.out.println("welcome "+name);
 	}
 
